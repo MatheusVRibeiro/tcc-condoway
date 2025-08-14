@@ -1,12 +1,12 @@
-// import { StatusBar } from 'expo-status-bar'; 
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native'; 
 
-import Navegacao from './src/routes'
+import Navegacao from './src/routes';
 
 export default function App() {
   return (
       <Navegacao />
-     /* <StatusBar style="auto" /> */
+      // <StatusBar style="auto" />
   );
 }
 

@@ -4,8 +4,13 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         // paddingTop: 8,
-        marginTop: 18,
+        // marginTop: 18,
         backgroundColor: 'coral',
+    },
+    esconder: {
+        backgroundColor: '#f00',
+        height: 18,
+        width: '100%',
     }
 });
 
