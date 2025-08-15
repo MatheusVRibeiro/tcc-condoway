@@ -21,7 +21,11 @@ export default function Tab() {
             <Stack.Screen 
                 name="Home" 
                 component={Home} 
-                options={{ headerShown: false }}                
+                options={{ 
+                headerShown: false, 
+                headerBackVisible: false,
+                gestureEnabled: false,
+            }}                
             />
         </Stack.Navigator>
     );
