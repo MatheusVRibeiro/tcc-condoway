@@ -1,5 +1,5 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack'; 
-
+import BottonTab from './bottomTabs';
 import Login from '../screens/Login';
 import CadUsuario from '../screens/CadUsuario';
 import EsqSenha from '../screens/EsqSenha';
@@ -19,8 +19,8 @@ export default function Tab() {
             <Stack.Screen name="CadUsuario" component={CadUsuario} />
             <Stack.Screen name="EsqSenha" component={EsqSenha} />
             <Stack.Screen 
-                name="Home" 
-                component={Home} 
+                name="BottonTab" 
+                component={BottonTab} 
                 options={{ 
                 headerShown: false, 
                 headerBackVisible: false,
