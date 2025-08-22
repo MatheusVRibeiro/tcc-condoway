@@ -20,8 +20,8 @@ export default function Login() {
     }
 
     function Acesso() {
-        if (email === usuTemp.email && senha === usuTemp.senha) {
-            navigation.navigate('Home', {usuTemp});
+        if (usuTemp.email === email && usuTemp.senha === senha) {
+            navigation.navigate('BottonTab', { usuTemp });
         } else {
             alert('E-mail ou senha inválidos',
             [{text: 'OK', onPress: () => console.log('OK Pressed')}]
